@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="max-w-4xl mx-auto p-10 bg-white shadow-lg rounded-xl mt-10">
+    <h2 class="text-2xl font-bold text-slate-800 border-b pb-4">สถานะการสมัครงาน AI ของคุณ</h2>
+    
+    <div class="mt-8 space-y-4">
+        <div class="flex items-center justify-between p-6 bg-blue-50 border border-blue-100 rounded-xl">
+            <div>
+                <h3 class="font-bold text-blue-800">Junior Machine Learning Engineer</h3>
+                <p class="text-sm text-gray-600">บริษัท PSU Innovation Center</p>
+            </div>
+            <span class="bg-blue-600 text-white px-4 py-1 rounded-full text-xs font-bold">กำลังตรวจสอบ</span>
+        </div>
+
+        <div class="flex items-center justify-between p-6 bg-green-50 border border-green-100 rounded-xl">
+            <div>
+                <h3 class="font-bold text-green-800">Computer Vision Specialist</h3>
+                <p class="text-sm text-gray-600">บริษัท AI Thai Tech</p>
+            </div>
+            <span class="bg-green-600 text-white px-4 py-1 rounded-full text-xs font-bold">นัดสัมภาษณ์แล้ว</span>
+        </div>
+    </div>
+</div>
+{% endblock %}
