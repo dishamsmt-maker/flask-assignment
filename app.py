@@ -1,3 +1,4 @@
+# Main Application File for AI Job Finder Project
 from flask import Flask, render_template
 
 app = Flask(__name__)
