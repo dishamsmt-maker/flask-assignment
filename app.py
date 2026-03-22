@@ -1,4 +1,5 @@
 # Main Application File for AI Job Finder Project
+# ฟังก์ชันควบคุมหน้าแรก
 from flask import Flask, render_template
 
 app = Flask(__name__)
