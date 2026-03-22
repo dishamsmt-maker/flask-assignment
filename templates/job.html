@@ -1,8 +1,16 @@
 {% extends "base.html" %}
 {% block content %}
-<h2>ตำแหน่งงาน AI ที่เปิดรับ</h2>
-<ul>
-    <li>AI Engineer - Remote</li>
-    <li>Data Scientist - Bangkok</li>
-</ul>
+<div class="max-w-4xl mx-auto p-10 bg-white shadow-xl rounded-2xl mt-10">
+    <h2 class="text-2xl font-bold text-slate-800 mb-6 border-b pb-2">ตำแหน่งงาน AI ที่เปิดรับ</h2>
+    <ul class="space-y-4">
+        <li class="p-4 border rounded-lg hover:bg-slate-50 flex justify-between items-center">
+            <span>AI Engineer - Remote</span>
+            <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full font-bold">New</span>
+        </li>
+        <li class="p-4 border rounded-lg hover:bg-slate-50 flex justify-between items-center">
+            <span>Data Scientist - Bangkok</span>
+            <span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full font-bold">Hot</span>
+        </li>
+    </ul>
+</div>
 {% endblock %}
